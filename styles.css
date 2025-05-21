@@ -1,0 +1,368 @@
+
+
+@font-face{
+	font-family: 'Norwester';
+	src: url(fonts/norwester.otf);
+}
+
+@font-face{
+	font-family: 'Glitch';
+	src: url(fonts/SdglitchdemoRegular-YzROj.ttf);
+}
+
+@font-face{
+	font-family: 'Bios';
+	src: url(fonts/Bios.otf);
+}
+
+@font-face{
+	font-family: 'Play';
+	src: url(fonts/Play.ttf);
+}
+
+@font-face{
+	font-family: 'Firestorm';
+	src: url(fonts/Firestorm.ttf);
+}
+
+
+body{
+	background-color: #000000;
+	background-repeat: no-repeat;
+}
+
+.samurai{
+	background-image: url('back1.png');
+	background-position: center;
+}
+
+#backvid{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	z-index:-1;
+}
+
+.NW{
+font-family: 'Norwester', sans-serif;
+color: white;
+font-size: 40px;
+}
+
+.biosabt{
+	font-family: 'Bios', sans-serif;
+	color: white;
+	font-size: 140px;
+	text-shadow:
+		0 0 7px #fff,
+		0 0 10px #fff,
+		0 0 21px #ffd300,
+		0 0 42px #ffd300,
+		0 0 82px #ffd300,
+		0 0 92px #ffd300,
+		0 0 102px #ffd300,
+		0 0 151px #ffd300;
+	text-align: center;
+}
+
+.abtback{
+	background-image: url(koyori-n-harbinger.png);
+	background-color: #000000;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.abt{
+font-family: 'Norwester', sans-serif;
+color: white;
+font-size: 30px;
+text-align: center;
+}
+
+.abt1{
+font-family: 'Glitch', sans-serif;
+color: white;
+font-size: 45px;
+}
+
+.abt2 {
+	font-family: 'Glitch', sans-serif;
+	color: white;
+	font-size: 45px;
+}
+
+.abt2 a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+.abt2 a:hover{
+	text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #962fbf,
+    0 0 42px #962fbf;
+}
+
+.abt3 {
+	font-family: 'Glitch', sans-serif;
+	color: white;
+	font-size: 45px;
+}
+
+.abt3 a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+.abt3 a:hover{
+	text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #1F51FF,
+    0 0 42px #1F51FF;
+}
+
+.title{
+font-family: 'Play', sans-serif;
+color: white;
+font-size: 40px;
+text-align: center;
+padding-left: 30px;
+pading-right: 30px;
+}
+
+.glitch{
+font-family: 'Glitch', sans-serif;
+color: white;
+font-size: 60px;
+text-align: center;
+padding-left: 30px;
+}
+
+.bios{
+font-family: 'Bios', sans-serif;
+color: white;
+font-size: 70px;
+text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #ffd300,
+    0 0 42px #ffd300,
+    0 0 82px #ffd300,
+    0 0 92px #ffd300,
+    0 0 102px #ffd300,
+    0 0 151px #ffd300;
+padding-left: 30px;
+}
+
+.choom{
+font-family: 'Bios', sans-serif;
+color: white;
+font-size: 25px;
+text-align: center;
+text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #FF3131,
+    0 0 42px #FF3131,
+    0 0 82px #FF3131,
+    0 0 92px #FF3131,
+    0 0 102px #FF3131,
+    0 0 151px #FF3131;
+padding: 25px;
+float: bottom;
+}
+
+.choom1{
+font-family: 'Bios', sans-serif;
+color: white;
+font-size: 25px;
+text-align: center;
+text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #1F51FF,
+    0 0 42px #1F51FF,
+    0 0 82px #1F51FF,
+    0 0 92px #1F51FF,
+    0 0 102px #1F51FF,
+    0 0 151px #1F51FF;
+padding: 25px;
+margin: 10px;
+float: bottom;
+}
+
+.nvg{
+font-family: 'Firestorm', sans-serif;
+color: white;
+font-size: 20px;
+float: right;
+}
+
+.nvg a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nvg a:hover {
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #ffd300,
+    0 0 32px #ffd300;
+}
+
+.nvgleft{
+font-family: 'Firestorm', sans-serif;
+color: white;
+font-size: 20px;
+float: left;
+}
+
+.nvgleft a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 25px 20px;
+  text-decoration: none;
+}
+
+.nvgleft a:hover {
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #ffd300,
+    0 0 42px #ffd300;
+}
+
+.nvgmain1{
+font-family: 'Bios', sans-serif;
+color: white;
+font-size: 50px;	
+background-image: url(assets/koyori-n-regen.jpg);
+background-repeat: no-repeat;
+background-position:center;
+}
+
+.nvgmain1 a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 30px 25px;
+	text-decoration: none;
+}
+
+.nvgmain1 a:hover {
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #1F51FF,
+    0 0 42px #1F51FF,
+    0 0 82px #1F51FF,
+    0 0 92px #1F51FF,
+    0 0 102px#1F51FF;
+}
+
+.nvgmain2{
+	font-family: 'Norwester', sans-serif;
+	color: white;
+	font-size: 50px;
+	background-image: url(assets/koyori-n-biker.jpg);
+	background-repeat: no-repeat;
+	background-position:center;	
+}
+
+.nvgmain2 a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 30px 25px;
+	text-decoration: none;
+}
+
+.nvgmain2 a:hover {
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #FF3131,
+    0 0 42px #FF3131,
+    0 0 82px #FF3131,
+    0 0 92px #FF3131,
+    0 0 102px #FF3131,
+    0 0 151px #FF3131;
+}
+
+.nvgmain3{
+font-family: 'Glitch', sans-serif;
+color: white;
+font-size: 60px;
+background-image: url(assets/koyori-n-flatline.jpg);
+background-repeat: no-repeat;
+background-position:center;	
+}
+
+
+
+.nvgmain3 a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 30px 25px;
+  text-decoration: none;
+}
+
+.nvgmain3 a:hover {
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #39FF14,
+    0 0 42px #39FF14,
+    0 0 82px #39FF14;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.implant{
+font-family: 'Bios', sans-serif; 
+color: white;
+background: transparent;
+font-size: 25px;
+text-align: center;
+padding-top: 10px;
+border: none;
+cursor: pointer;
+}
+
+.implant:hover{
+	text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #1F51FF,
+    0 0 42px #1F51FF,
+    0 0 82px #1F51FF,
+    0 0 92px #1F51FF,
+    0 0 102px #1F51FF,
+    0 0 151px #1F51FF;
+}
+
+img.productimg{
+	height: 200px;
+	width: 150px;
+}
